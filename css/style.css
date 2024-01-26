@@ -1,5 +1,6 @@
 :root{
   --main-font-color: #151618;
+  --white-font-color: #fff;
 }
 
 html{
@@ -15,6 +16,11 @@ html{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+button{
+  padding: 0;
+  border: none;
 }
 
 ul{
@@ -59,6 +65,19 @@ body{
   margin-left: 85px;
 }
 
+.menu__btn{
+  display: none;
+  width: 40px;
+  height: 20px;
+
+}
+.menu__btn span{
+  background-color: #000;
+  height: 2px;
+  width: 100%;
+}
+
+
 .user-actions{
   display: flex;
   align-items: center;
@@ -68,3 +87,50 @@ body{
 .user-actions__item-search{
   margin-left: 80px;
 }
+/* End Header */
+/* Top Section */
+.top{
+  background-image: url(../images/hero-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.top__inner{
+  min-height: 500px;
+  color: var(--white-font-color);
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top__title{
+  font-size: 60px;
+  margin-bottom: 20px;
+  max-width: 780px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.top__text{
+  font-size: 24px;
+  margin-bottom: 48px;
+  max-width: 560px;
+  line-height: normal;
+}
+
+/* Blockquote */
+.blockquote__text{
+  text-align: center;
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: normal;
+  max-width: 704px;
+  margin: 150px auto;
+}
+
+
+
