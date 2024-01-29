@@ -28,6 +28,14 @@ ul{
   list-style: none;
 }
 
+.title{
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .container{
   max-width: 1240px;
   margin: 0 auto;
@@ -161,4 +169,26 @@ body{
 }
 
 
+/* Assotment */
+.assortment{
+  margin-bottom: 150px;
+}
 
+.assortment__list{
+  text-align: center;
+  display: flex;
+  gap: 0 40px;
+}
+
+.assortment__img{
+  max-height: 208px;
+  max-width: 208px;
+  width: 100%;
+}
+
+.assprtment__name{
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Cormorant', serif;
+}
