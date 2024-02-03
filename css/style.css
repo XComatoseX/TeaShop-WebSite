@@ -362,5 +362,27 @@ body{
   background-color: #151618;
   top: 1px;
   left: 1px;
+}
+
+/* Prioritise */
+.prioritise{
+  padding: 150px 0;
+}
+.prioritise__list{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 49px;
+}
+
+.prioritise__title{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.prioritise__text{
+  margin-bottom: 30px;
+  font-weight: 600;
 
 }
