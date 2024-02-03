@@ -313,4 +313,20 @@
   .main-blog__item-title{
     min-height: auto;
   }
+  .mailing-list__email{
+    width: 205px;
+  }
+  .prioritise{
+    padding: 50px 0;
+  }
+  .prioritise__title{
+    font-size: 20px;
+  }
+  .prioritise__text{
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .prioritise__list{
+    gap: 40px;
+  }
 }
