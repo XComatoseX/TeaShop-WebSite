@@ -61,6 +61,14 @@
     text-align: center;
     flex-basis: 780px;
   }
+
+  /* prioritise */
+  .prioritise{
+    padding: 120px 0;
+  }
+  .prioritise__list{
+    gap: 30px 210px;
+  }
 }
 
 @media (max-width: 860px) {
