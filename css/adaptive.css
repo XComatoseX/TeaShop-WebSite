@@ -46,10 +46,21 @@
   .main-blog__link{
     margin-top: 60px;
   }
+  /* Mailing */
   .mailing-list__inner{
     flex-wrap: wrap;
+    justify-content: center ;
   }
-  
+  .mailing-list{
+    padding: 60px 0;
+  }
+  .mailing-list__title{
+    text-align: center;
+  }
+  .mailing-list__text{
+    text-align: center;
+    flex-basis: 780px;
+  }
 }
 
 @media (max-width: 860px) {
