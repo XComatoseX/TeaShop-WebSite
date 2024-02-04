@@ -242,7 +242,7 @@
     margin-right: 20px;
   }
   .mailing-list__btn{
-    padding: 10px 39px;
+    padding: 10px 30px;
   }
   .prioritise{
     padding: 60px 0;
@@ -327,6 +327,6 @@
     font-weight: 400;
   }
   .prioritise__list{
-    gap: 40px;
+    gap: 40px 100px;
   }
 }
